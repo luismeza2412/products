@@ -1,5 +1,4 @@
 'use client';
-import styled from 'styled-components';
 import { Product } from '../types/product';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
