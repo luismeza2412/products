@@ -57,7 +57,7 @@ Para desplegar:
 El proyecto fue construido con una estructura modular escalable, aprovechando el sistema de **App Router de Next.js**, y siguiendo principios de separación de responsabilidades.
 
 ```
-landing-financiera/
+products-catalog/
 ├── app/                      # App Router de Next.js (páginas principales)
 │   ├── page.tsx             # Página principal (catálogo)
 │   └── product/[id]/        # Página de detalle por ID
@@ -67,8 +67,8 @@ landing-financiera/
 │   ├── ProductCard.styles.ts
 │   ├── Navbar.tsx
 │   ├── Navbar.styles.ts
-│   ├── HeroSlider.tsx
-│   └── HeroSlider.styles.ts
+│   ├── Slider.tsx
+│   └── Slider.styles.ts
 ├── data/                    # Mock de productos (fuente de datos local)
 │   └── products.ts
 ├── types/                   # Tipado de datos global
@@ -88,7 +88,7 @@ landing-financiera/
 ## 🧠 Decisiones técnicas
 
 ### 1. ¿Qué criterios seguiste para diseñar la UI?
-- Inspiración en plataformas fintech modernas (como bvc.com)
+- Inspiración en plataformas fintech modernas
 - Paleta de colores confiable: azul, blanco, gris
 - Tipografía clara, layout limpio y accesibilidad desde el diseño
 
